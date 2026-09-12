@@ -1,6 +1,4 @@
 import os
-from datetime import datetime
-
 import joblib
 import numpy as np
 import pandas as pd
