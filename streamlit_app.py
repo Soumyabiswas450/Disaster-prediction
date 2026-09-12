@@ -10,12 +10,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-# Optional workaround for some Anaconda/Windows OpenMP conflicts.
+
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
-# ============================================================
-# PAGE CONFIG
-# ============================================================
 st.set_page_config(
     page_title="Multi-Hazard Weather & Hazard Monitor",
     page_icon="🌍",
